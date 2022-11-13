@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E06FF7259EA0744477893E7 /* Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113CE5FD4034E88C1C8F199 /* Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework */; };
+		92C925620F5C65BC3F33DECD /* Pods_hanbatTaskManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB98E8ECC4BF214747F81570 /* Pods_hanbatTaskManagementTests.framework */; };
+		AD09E6CE41D87DC42CC0C366 /* Pods_hanbatTaskManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8F6FEBFEFA6FF5F6EE05D /* Pods_hanbatTaskManagement.framework */; };
+		DDA3BFE628DAF79E00B8935F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA3BFE428DAF79E00B8935F /* Main.storyboard */; };
+		DDA3BFE828DB030900B8935F /* settingServicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA3BFE728DB030900B8935F /* settingServicePage.swift */; };
+		DDA5491728BDCBFC0090A156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5491628BDCBFC0090A156 /* AppDelegate.swift */; };
+		DDA5491928BDCBFC0090A156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5491828BDCBFC0090A156 /* SceneDelegate.swift */; };
+		DDA5492028BDCBFD0090A156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA5491F28BDCBFD0090A156 /* Assets.xcassets */; };
+		DDA5492328BDCBFD0090A156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA5492128BDCBFD0090A156 /* LaunchScreen.storyboard */; };
+		DDA5492E28BDCBFD0090A156 /* hanbatTaskManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5492D28BDCBFD0090A156 /* hanbatTaskManagementTests.swift */; };
+		DDA5493828BDCBFD0090A156 /* hanbatTaskManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5493728BDCBFD0090A156 /* hanbatTaskManagementUITests.swift */; };
+		DDA5493A28BDCBFD0090A156 /* hanbatTaskManagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5493928BDCBFD0090A156 /* hanbatTaskManagementUITestsLaunchTests.swift */; };
+		DDA5494728BDD1C60090A156 /* globalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5494628BDD1C60090A156 /* globalVariable.swift */; };
+		DDA5494928BDD2010090A156 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5494828BDD2010090A156 /* loginPage.swift */; };
+		DDA5494B28BDD2120090A156 /* loginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5494A28BDD2120090A156 /* loginClass.swift */; };
+		DDA5494D28BDD2230090A156 /* subjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5494C28BDD2230090A156 /* subjectClass.swift */; };
+		DDA5495128BDD2520090A156 /* loadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495028BDD2520090A156 /* loadingPage.swift */; };
+		DDA5495328BDD25A0090A156 /* classPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495228BDD25A0090A156 /* classPage.swift */; };
+		DDA5495528BDD2620090A156 /* taskPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495428BDD2620090A156 /* taskPage.swift */; };
+		DDA5495728BDD29B0090A156 /* taskPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495628BDD29B0090A156 /* taskPageCollectionViewCell.swift */; };
+		DDA5495928BDD2A90090A156 /* noticePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495828BDD2A90090A156 /* noticePage.swift */; };
+		DDA5495D28BDD2C60090A156 /* taskContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495C28BDD2C60090A156 /* taskContentPage.swift */; };
+		DDA5495F28BDD2CF0090A156 /* noticeContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5495E28BDD2CF0090A156 /* noticeContentPage.swift */; };
+		DDA5496128BDD2EF0090A156 /* settingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5496028BDD2EF0090A156 /* settingPage.swift */; };
+		DDA5496328BDD2FB0090A156 /* settingAlarmPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5496228BDD2FB0090A156 /* settingAlarmPage.swift */; };
+		DDA5496528BDD3030090A156 /* settingTimePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5496428BDD3030090A156 /* settingTimePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA5492A28BDCBFD0090A156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA5490B28BDCBFC0090A156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA5491228BDCBFC0090A156;
+			remoteInfo = hanbatTaskManagement;
+		};
+		DDA5493428BDCBFD0090A156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA5490B28BDCBFC0090A156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA5491228BDCBFC0090A156;
+			remoteInfo = hanbatTaskManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0113CE5FD4034E88C1C8F199 /* Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A8F6FEBFEFA6FF5F6EE05D /* Pods_hanbatTaskManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hanbatTaskManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4003C8081762DD851AAAC5C7 /* Pods-hanbatTaskManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagement.debug.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagement/Pods-hanbatTaskManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		510576AEFF1B40D7D79E1182 /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagement-hanbatTaskManagementUITests.release.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagement-hanbatTaskManagementUITests/Pods-hanbatTaskManagement-hanbatTaskManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5518534697B1C7D76E71465F /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagement-hanbatTaskManagementUITests.debug.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagement-hanbatTaskManagementUITests/Pods-hanbatTaskManagement-hanbatTaskManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7301D79B88BCD68B417EFF4A /* Pods-hanbatTaskManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagementTests/Pods-hanbatTaskManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E93FE1E9CEDAC3F89C9E2D0 /* Pods-hanbatTaskManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagementTests.release.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagementTests/Pods-hanbatTaskManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E7DF2159829250C4989B2FB /* Pods-hanbatTaskManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hanbatTaskManagement.release.xcconfig"; path = "Target Support Files/Pods-hanbatTaskManagement/Pods-hanbatTaskManagement.release.xcconfig"; sourceTree = "<group>"; };
+		AB98E8ECC4BF214747F81570 /* Pods_hanbatTaskManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hanbatTaskManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA3BFE528DAF79E00B8935F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDA3BFE728DB030900B8935F /* settingServicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingServicePage.swift; sourceTree = "<group>"; };
+		DDA5491328BDCBFC0090A156 /* hanbatTaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hanbatTaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5491628BDCBFC0090A156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDA5491828BDCBFC0090A156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDA5491F28BDCBFD0090A156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA5492228BDCBFD0090A156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDA5492428BDCBFD0090A156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA5492928BDCBFD0090A156 /* hanbatTaskManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hanbatTaskManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5492D28BDCBFD0090A156 /* hanbatTaskManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanbatTaskManagementTests.swift; sourceTree = "<group>"; };
+		DDA5493328BDCBFD0090A156 /* hanbatTaskManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hanbatTaskManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5493728BDCBFD0090A156 /* hanbatTaskManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanbatTaskManagementUITests.swift; sourceTree = "<group>"; };
+		DDA5493928BDCBFD0090A156 /* hanbatTaskManagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hanbatTaskManagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDA5494628BDD1C60090A156 /* globalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVariable.swift; sourceTree = "<group>"; };
+		DDA5494828BDD2010090A156 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		DDA5494A28BDD2120090A156 /* loginClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginClass.swift; sourceTree = "<group>"; };
+		DDA5494C28BDD2230090A156 /* subjectClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectClass.swift; sourceTree = "<group>"; };
+		DDA5495028BDD2520090A156 /* loadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingPage.swift; sourceTree = "<group>"; };
+		DDA5495228BDD25A0090A156 /* classPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classPage.swift; sourceTree = "<group>"; };
+		DDA5495428BDD2620090A156 /* taskPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskPage.swift; sourceTree = "<group>"; };
+		DDA5495628BDD29B0090A156 /* taskPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDA5495828BDD2A90090A156 /* noticePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noticePage.swift; sourceTree = "<group>"; };
+		DDA5495C28BDD2C60090A156 /* taskContentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskContentPage.swift; sourceTree = "<group>"; };
+		DDA5495E28BDD2CF0090A156 /* noticeContentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noticeContentPage.swift; sourceTree = "<group>"; };
+		DDA5496028BDD2EF0090A156 /* settingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingPage.swift; sourceTree = "<group>"; };
+		DDA5496228BDD2FB0090A156 /* settingAlarmPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingAlarmPage.swift; sourceTree = "<group>"; };
+		DDA5496428BDD3030090A156 /* settingTimePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingTimePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA5491028BDCBFC0090A156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD09E6CE41D87DC42CC0C366 /* Pods_hanbatTaskManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5492628BDCBFD0090A156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C925620F5C65BC3F33DECD /* Pods_hanbatTaskManagementTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5493028BDCBFD0090A156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E06FF7259EA0744477893E7 /* Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EE533F39F7447356C1DAFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4003C8081762DD851AAAC5C7 /* Pods-hanbatTaskManagement.debug.xcconfig */,
+				9E7DF2159829250C4989B2FB /* Pods-hanbatTaskManagement.release.xcconfig */,
+				5518534697B1C7D76E71465F /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.debug.xcconfig */,
+				510576AEFF1B40D7D79E1182 /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.release.xcconfig */,
+				7301D79B88BCD68B417EFF4A /* Pods-hanbatTaskManagementTests.debug.xcconfig */,
+				7E93FE1E9CEDAC3F89C9E2D0 /* Pods-hanbatTaskManagementTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6545CD20D9A6D7B1B53E85B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A8F6FEBFEFA6FF5F6EE05D /* Pods_hanbatTaskManagement.framework */,
+				0113CE5FD4034E88C1C8F199 /* Pods_hanbatTaskManagement_hanbatTaskManagementUITests.framework */,
+				AB98E8ECC4BF214747F81570 /* Pods_hanbatTaskManagementTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA5490A28BDCBFC0090A156 = {
+			isa = PBXGroup;
+			children = (
+				DDA5491528BDCBFC0090A156 /* hanbatTaskManagement */,
+				DDA5492C28BDCBFD0090A156 /* hanbatTaskManagementTests */,
+				DDA5493628BDCBFD0090A156 /* hanbatTaskManagementUITests */,
+				DDA5491428BDCBFC0090A156 /* Products */,
+				33EE533F39F7447356C1DAFB /* Pods */,
+				6545CD20D9A6D7B1B53E85B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA5491428BDCBFC0090A156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5491328BDCBFC0090A156 /* hanbatTaskManagement.app */,
+				DDA5492928BDCBFD0090A156 /* hanbatTaskManagementTests.xctest */,
+				DDA5493328BDCBFD0090A156 /* hanbatTaskManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA5491528BDCBFC0090A156 /* hanbatTaskManagement */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5491628BDCBFC0090A156 /* AppDelegate.swift */,
+				DDA5491828BDCBFC0090A156 /* SceneDelegate.swift */,
+				DDA5494628BDD1C60090A156 /* globalVariable.swift */,
+				DDA5494828BDD2010090A156 /* loginPage.swift */,
+				DDA5494A28BDD2120090A156 /* loginClass.swift */,
+				DDA5494C28BDD2230090A156 /* subjectClass.swift */,
+				DDA5495028BDD2520090A156 /* loadingPage.swift */,
+				DDA5495228BDD25A0090A156 /* classPage.swift */,
+				DDA5495428BDD2620090A156 /* taskPage.swift */,
+				DDA5495628BDD29B0090A156 /* taskPageCollectionViewCell.swift */,
+				DDA5495828BDD2A90090A156 /* noticePage.swift */,
+				DDA5495C28BDD2C60090A156 /* taskContentPage.swift */,
+				DDA5495E28BDD2CF0090A156 /* noticeContentPage.swift */,
+				DDA5496028BDD2EF0090A156 /* settingPage.swift */,
+				DDA5496228BDD2FB0090A156 /* settingAlarmPage.swift */,
+				DDA5496428BDD3030090A156 /* settingTimePage.swift */,
+				DDA3BFE728DB030900B8935F /* settingServicePage.swift */,
+				DDA3BFE428DAF79E00B8935F /* Main.storyboard */,
+				DDA5491F28BDCBFD0090A156 /* Assets.xcassets */,
+				DDA5492128BDCBFD0090A156 /* LaunchScreen.storyboard */,
+				DDA5492428BDCBFD0090A156 /* Info.plist */,
+			);
+			path = hanbatTaskManagement;
+			sourceTree = "<group>";
+		};
+		DDA5492C28BDCBFD0090A156 /* hanbatTaskManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5492D28BDCBFD0090A156 /* hanbatTaskManagementTests.swift */,
+			);
+			path = hanbatTaskManagementTests;
+			sourceTree = "<group>";
+		};
+		DDA5493628BDCBFD0090A156 /* hanbatTaskManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5493728BDCBFD0090A156 /* hanbatTaskManagementUITests.swift */,
+				DDA5493928BDCBFD0090A156 /* hanbatTaskManagementUITestsLaunchTests.swift */,
+			);
+			path = hanbatTaskManagementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA5491228BDCBFC0090A156 /* hanbatTaskManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5493D28BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagement" */;
+			buildPhases = (
+				D221D4A59183765B58AFC0A0 /* [CP] Check Pods Manifest.lock */,
+				DDA5490F28BDCBFC0090A156 /* Sources */,
+				DDA5491028BDCBFC0090A156 /* Frameworks */,
+				DDA5491128BDCBFC0090A156 /* Resources */,
+				FFE9E0FEDDE4366388958743 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hanbatTaskManagement;
+			productName = hanbatTaskManagement;
+			productReference = DDA5491328BDCBFC0090A156 /* hanbatTaskManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA5492828BDCBFD0090A156 /* hanbatTaskManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5494028BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagementTests" */;
+			buildPhases = (
+				E53E04985BD10D9DD99913CD /* [CP] Check Pods Manifest.lock */,
+				DDA5492528BDCBFD0090A156 /* Sources */,
+				DDA5492628BDCBFD0090A156 /* Frameworks */,
+				DDA5492728BDCBFD0090A156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA5492B28BDCBFD0090A156 /* PBXTargetDependency */,
+			);
+			name = hanbatTaskManagementTests;
+			productName = hanbatTaskManagementTests;
+			productReference = DDA5492928BDCBFD0090A156 /* hanbatTaskManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDA5493228BDCBFD0090A156 /* hanbatTaskManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5494328BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagementUITests" */;
+			buildPhases = (
+				03A4E0AA9E56978008F5E180 /* [CP] Check Pods Manifest.lock */,
+				DDA5492F28BDCBFD0090A156 /* Sources */,
+				DDA5493028BDCBFD0090A156 /* Frameworks */,
+				DDA5493128BDCBFD0090A156 /* Resources */,
+				48D0F84C784FB12B953CFA24 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA5493528BDCBFD0090A156 /* PBXTargetDependency */,
+			);
+			name = hanbatTaskManagementUITests;
+			productName = hanbatTaskManagementUITests;
+			productReference = DDA5493328BDCBFD0090A156 /* hanbatTaskManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA5490B28BDCBFC0090A156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DDA5491228BDCBFC0090A156 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DDA5492828BDCBFD0090A156 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDA5491228BDCBFC0090A156;
+					};
+					DDA5493228BDCBFD0090A156 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDA5491228BDCBFC0090A156;
+					};
+				};
+			};
+			buildConfigurationList = DDA5490E28BDCBFC0090A156 /* Build configuration list for PBXProject "hanbatTaskManagement" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA5490A28BDCBFC0090A156;
+			productRefGroup = DDA5491428BDCBFC0090A156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA5491228BDCBFC0090A156 /* hanbatTaskManagement */,
+				DDA5492828BDCBFD0090A156 /* hanbatTaskManagementTests */,
+				DDA5493228BDCBFD0090A156 /* hanbatTaskManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA5491128BDCBFC0090A156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA3BFE628DAF79E00B8935F /* Main.storyboard in Resources */,
+				DDA5492328BDCBFD0090A156 /* LaunchScreen.storyboard in Resources */,
+				DDA5492028BDCBFD0090A156 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5492728BDCBFD0090A156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5493128BDCBFD0090A156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A4E0AA9E56978008F5E180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hanbatTaskManagement-hanbatTaskManagementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D0F84C784FB12B953CFA24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement-hanbatTaskManagementUITests/Pods-hanbatTaskManagement-hanbatTaskManagementUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement-hanbatTaskManagementUITests/Pods-hanbatTaskManagement-hanbatTaskManagementUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement-hanbatTaskManagementUITests/Pods-hanbatTaskManagement-hanbatTaskManagementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D221D4A59183765B58AFC0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hanbatTaskManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53E04985BD10D9DD99913CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hanbatTaskManagementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE9E0FEDDE4366388958743 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement/Pods-hanbatTaskManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement/Pods-hanbatTaskManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hanbatTaskManagement/Pods-hanbatTaskManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA5490F28BDCBFC0090A156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5495728BDD29B0090A156 /* taskPageCollectionViewCell.swift in Sources */,
+				DDA3BFE828DB030900B8935F /* settingServicePage.swift in Sources */,
+				DDA5495528BDD2620090A156 /* taskPage.swift in Sources */,
+				DDA5494928BDD2010090A156 /* loginPage.swift in Sources */,
+				DDA5494D28BDD2230090A156 /* subjectClass.swift in Sources */,
+				DDA5494B28BDD2120090A156 /* loginClass.swift in Sources */,
+				DDA5495F28BDD2CF0090A156 /* noticeContentPage.swift in Sources */,
+				DDA5496128BDD2EF0090A156 /* settingPage.swift in Sources */,
+				DDA5495128BDD2520090A156 /* loadingPage.swift in Sources */,
+				DDA5491728BDCBFC0090A156 /* AppDelegate.swift in Sources */,
+				DDA5496328BDD2FB0090A156 /* settingAlarmPage.swift in Sources */,
+				DDA5495928BDD2A90090A156 /* noticePage.swift in Sources */,
+				DDA5495328BDD25A0090A156 /* classPage.swift in Sources */,
+				DDA5496528BDD3030090A156 /* settingTimePage.swift in Sources */,
+				DDA5491928BDCBFC0090A156 /* SceneDelegate.swift in Sources */,
+				DDA5494728BDD1C60090A156 /* globalVariable.swift in Sources */,
+				DDA5495D28BDD2C60090A156 /* taskContentPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5492528BDCBFD0090A156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5492E28BDCBFD0090A156 /* hanbatTaskManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5492F28BDCBFD0090A156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA5493A28BDCBFD0090A156 /* hanbatTaskManagementUITestsLaunchTests.swift in Sources */,
+				DDA5493828BDCBFD0090A156 /* hanbatTaskManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA5492B28BDCBFD0090A156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA5491228BDCBFC0090A156 /* hanbatTaskManagement */;
+			targetProxy = DDA5492A28BDCBFD0090A156 /* PBXContainerItemProxy */;
+		};
+		DDA5493528BDCBFD0090A156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA5491228BDCBFC0090A156 /* hanbatTaskManagement */;
+			targetProxy = DDA5493428BDCBFD0090A156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDA3BFE428DAF79E00B8935F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA3BFE528DAF79E00B8935F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDA5492128BDCBFD0090A156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA5492228BDCBFD0090A156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA5493B28BDCBFD0090A156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA5493C28BDCBFD0090A156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA5493E28BDCBFD0090A156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4003C8081762DD851AAAC5C7 /* Pods-hanbatTaskManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = R4HWH7EV39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hanbatTaskManagement/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "과제밭";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA5493F28BDCBFD0090A156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7DF2159829250C4989B2FB /* Pods-hanbatTaskManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = R4HWH7EV39;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hanbatTaskManagement/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "과제밭";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDA5494128BDCBFD0090A156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7301D79B88BCD68B417EFF4A /* Pods-hanbatTaskManagementTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQLS72LDQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hanbatTaskManagement.app/hanbatTaskManagement";
+			};
+			name = Debug;
+		};
+		DDA5494228BDCBFD0090A156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E93FE1E9CEDAC3F89C9E2D0 /* Pods-hanbatTaskManagementTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQLS72LDQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hanbatTaskManagement.app/hanbatTaskManagement";
+			};
+			name = Release;
+		};
+		DDA5494428BDCBFD0090A156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5518534697B1C7D76E71465F /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQLS72LDQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hanbatTaskManagement;
+			};
+			name = Debug;
+		};
+		DDA5494528BDCBFD0090A156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510576AEFF1B40D7D79E1182 /* Pods-hanbatTaskManagement-hanbatTaskManagementUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQLS72LDQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobicom.hanbatTaskManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hanbatTaskManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA5490E28BDCBFC0090A156 /* Build configuration list for PBXProject "hanbatTaskManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5493B28BDCBFD0090A156 /* Debug */,
+				DDA5493C28BDCBFD0090A156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5493D28BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5493E28BDCBFD0090A156 /* Debug */,
+				DDA5493F28BDCBFD0090A156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5494028BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5494128BDCBFD0090A156 /* Debug */,
+				DDA5494228BDCBFD0090A156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5494328BDCBFD0090A156 /* Build configuration list for PBXNativeTarget "hanbatTaskManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5494428BDCBFD0090A156 /* Debug */,
+				DDA5494528BDCBFD0090A156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA5490B28BDCBFC0090A156 /* Project object */;
+}

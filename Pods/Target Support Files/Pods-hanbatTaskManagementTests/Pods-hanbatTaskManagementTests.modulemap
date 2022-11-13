@@ -1,0 +1,6 @@
+framework module Pods_hanbatTaskManagementTests {
+  umbrella header "Pods-hanbatTaskManagementTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
